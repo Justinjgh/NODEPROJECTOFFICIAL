@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+
+// This renders the entire app on the screen, without this nothing would appear on screen.
 
 ReactDOM.render(
   <React.StrictMode>
